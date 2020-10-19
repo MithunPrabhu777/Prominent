@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  font-family: 'Poppins', sans-serif;
+}
+
+.page .head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background:linear-gradient(60deg,pink,rgb(245, 245, 165),rgb(71, 174, 71));
+}
+
+.page .head ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+
+.page .head ul li {
+  padding: 24px;
+}
+
+.page .content {
+  display: flex;
+}
+
+.page .content .card{
+  border: 2px solid rgb(221, 70, 96);
+  box-shadow: 10px 10px 5px black;
+  width: 250px;
+  height: 150px;
+  padding: 20px;
+  background: linear-gradient(135deg,pink,green);
+  color: aliceblue;
+}
+
+.page .content .img {
+  margin-top: 250px;
+}
